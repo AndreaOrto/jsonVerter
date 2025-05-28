@@ -23,7 +23,7 @@
 
 ---
 
-## 📦 Come usare jsonVerter
+## 🛠️ Come usare jsonVerter
 
 1. Scarica il file `jsonVerter.exe`.
 2. Esegui il programma con doppio clic (non serve installazione).
