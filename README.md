@@ -23,6 +23,28 @@
 
 ---
 
+## 📝 Formattazione del file .txt
+
+Il file `.txt` deve contenere le frasi da convertire in JSON, **una per riga**.
+
+### ✅ Esempio corretto:
+```txt
+content 1
+content 2
+content 3
+```
+
+Ogni riga rappresenta un contenuto da tradurre e inserire nel file JSON finale.
+
+### ⚠️ Attenzione:
+- **Non** lasciare righe vuote.
+- **Non** usare virgolette o altri simboli speciali.
+- **Non** separare frasi con virgole o punti e virgola nella stessa riga.
+
+### 📌 Suggerimento:
+Se vuoi dividere i contenuti in categorie, crea un file `.txt` per categoria.
+
+
 ## 🛠️ Come usare jsonVerter
 
 1. Scarica il file `jsonVerter.exe`.
