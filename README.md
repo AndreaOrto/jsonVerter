@@ -1,15 +1,14 @@
 # 📝 jsonVerter
 
-**jsonVerter** è un'applicazione desktop per Windows che consente di convertire file `.txt` in file `.json` strutturati, tramite un'interfaccia grafica semplice e intuitiva. Ogni riga del file `.txt` viene trasformata in un oggetto JSON, con supporto multilingua.
+**jsonVerter** è un'applicazione desktop per Windows che consente di convertire file `.txt` in file `.json` strutturati, tramite un'interfaccia grafica semplice e intuitiva. Ogni riga del file `.txt` viene trasformata in un oggetto JSON.
 
 ---
 
 ## 🚀 Caratteristiche principali
 
-- Interfaccia grafica facile da usare
+- Interfaccia grafica facile da utilizzare
 - Conversione automatica da `.txt` a `.json`
 - Aggiunta automatica di ID per ogni elemento
-- Supporto multilingua: lingua di origine + lingue di destinazione
 - 100% offline, senza dipendenze esterne
 - Controllo aggiornamenti integrato
 
