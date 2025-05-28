@@ -29,9 +29,9 @@ Il file `.txt` deve contenere le frasi da convertire in JSON, **una per riga**.
 
 ### ✅ Esempio corretto:
 ```txt
-content 1
-content 2
-content 3
+contentA
+contentB
+contentC
 ```
 
 Ogni riga rappresenta un contenuto da tradurre e inserire nel file JSON finale.
