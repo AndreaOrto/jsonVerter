@@ -1,30 +1,50 @@
 # 📝 jsonVerter
 
-**jsonVerter** è un programma che converte file `.txt` in file JSON strutturati tramite un’interfaccia grafica semplice e intuitiva.
+**jsonVerter** è un'applicazione desktop per Windows che consente di convertire file `.txt` in file `.json` strutturati, tramite un'interfaccia grafica semplice e intuitiva. Ogni riga del file `.txt` viene trasformata in un oggetto JSON, con supporto multilingua.
 
 ---
 
-## Uso dell'eseguibile (.exe)
+## 🚀 Caratteristiche principali
 
-- Scarica e salva il file `jsonVerter.exe` sul tuo computer.
-- Fai doppio clic su `jsonVerter.exe` per avviare il programma.
-- Non è necessario installare Python o altre librerie, il programma è completamente standalone.
-- Nell’interfaccia:
-  1. Seleziona il file `.txt` di input (ogni riga sarà un elemento).
-  2. Specifica dove salvare il file `.json` di output.
-  3. Inserisci la lingua di origine (ad esempio `it`).
-  4. Inserisci le lingue di traduzione separate da virgola (ad esempio `fr,en`).
-  5. Clicca su **Converti**.
-- Puoi controllare la presenza di aggiornamenti tramite il pulsante dedicato.
+- Interfaccia grafica facile da usare
+- Conversione automatica da `.txt` a `.json`
+- Aggiunta automatica di ID per ogni elemento
+- Supporto multilingua: lingua di origine + lingue di destinazione
+- 100% offline, senza dipendenze esterne
+- Controllo aggiornamenti integrato
 
 ---
 
-## Requisiti
-  
-Il file `.exe` è pronto all’uso su Windows senza installazioni aggiuntive.
+## 🖥️ Requisiti
+
+- Sistema operativo: **Windows**
+- Non è richiesta alcuna installazione di Python o librerie esterne
+- Applicazione completamente standalone (`.exe`)
 
 ---
 
-## Autore
+## 📦 Come usare jsonVerter
 
-Ortolan Andrea  
+1. Scarica il file `jsonVerter.exe`.
+2. Esegui il programma con doppio clic (non serve installazione).
+3. Nell'interfaccia:
+   - 📂 Seleziona il file `.txt` di input.
+   - 💾 Specifica il percorso per il file `.json` di output.
+   - 🌐 Inserisci la **lingua di origine** (es. `it`).
+   - 🌍 Inserisci le **lingue di traduzione**, separate da virgola (es. `en,fr`).
+   - 🔄 Clicca su **Converti** per generare il file JSON.
+4. 🔄 Usa il pulsante **Controlla aggiornamenti** per verificare se è disponibile una nuova versione.
+
+---
+
+## 📄 Formato JSON di output
+
+```json
+{
+  "items": [
+    { "id": 1, "content": "Prima riga del file" },
+    { "id": 2, "content": "Seconda riga del file" }
+  ],
+  "source_lang": "it",
+  "dest_langs": ["en", "fr"]
+}
